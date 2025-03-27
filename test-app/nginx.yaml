@@ -5,6 +5,7 @@ metadata:
   name: nginx
   labels:
     app: nginx
+  namespace: argocd
 spec:
   containers:
   - name: nginx
